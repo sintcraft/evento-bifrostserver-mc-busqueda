@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background: #000011;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: #ffd400;
+  font-size: 5em;
+  position: absolute;
+  top: 20%;
+  left: 27%;
+}
+
+h3 {
+  color: #fff;
+  font-size: 4em;
+  position: absolute;
+  top: 40%;
+  left: 42%;
+}
+
+#barraLoad {
+  width: 20%;
+  height: 3%;
+  border-radius: 1.5vw;
+  background: #fff;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+
+#puntoload {
+  height: 100%;
+  width: 7%;
+  background: #000;
+  border-radius: 1.5vw;
+  position: relative;
+  -webkit-animation: loader 2s infinite;
+          animation: loader 2s infinite;
+}
+
+.out {
+  -webkit-animation: out 1s;
+          animation: out 1s;
+  opacity: 0;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    left: 0;
+    width: 7%;
+  }
+  25% {
+    width: 10%;
+  }
+  50% {
+    left: 93%;
+    width: 7%;
+  }
+  75% {
+    width: 10%;
+  }
+  100% {
+    left: 0;
+    width: 7%;
+  }
+}
+
+@keyframes loader {
+  0% {
+    left: 0;
+    width: 7%;
+  }
+  25% {
+    width: 10%;
+  }
+  50% {
+    left: 93%;
+    width: 7%;
+  }
+  75% {
+    width: 10%;
+  }
+  100% {
+    left: 0;
+    width: 7%;
+  }
+}
+
+@-webkit-keyframes out {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+    bottom: 25%;
+  }
+}
+
+@keyframes out {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+    bottom: 25%;
+  }
+}
+/*# sourceMappingURL=wait.css.map */

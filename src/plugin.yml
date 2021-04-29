@@ -1,0 +1,9 @@
+main: com.sint.plugin.Main
+name: pigi-event-bifrostServer
+version: 0.2
+author: sintcraft
+commands:
+  mendar-serv:
+    permission: sintcraft.solo.sintcraft
+    description: Lo usaras por las webas :3
+    permission-message: No tienes permisos causa :v te lo dije xd
